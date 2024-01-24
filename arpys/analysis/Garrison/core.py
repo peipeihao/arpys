@@ -8,7 +8,7 @@ classes all future analysis packages that subclass core.
 
 from typing import List, Dict, Set, Tuple, NewType
 import xarray as xr
-from ..Arpes import *
+from arpys.Arpes import *
 import numpy as np
 
 xarray = NewType('xarray', xr)

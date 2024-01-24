@@ -1,12 +1,11 @@
-from .core import Core
-from typing import List, Dict, Set, Tuple, NewType
+from arpys.analysis.Garrison.core import Core
+from typing import List, NewType
 import xarray as xr
 import numpy as np
 from scipy.special import wofz
 from lmfit import minimize, Parameters, report_fit
 import re
 import copy
-import math
 
 xarray = NewType('xarray', xr)
 minnimizer_result = NewType('minnimizer_result', object)
